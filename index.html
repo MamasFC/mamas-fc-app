@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mamas FC</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+   <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#1f8f4a">
+
+</head>
+<body>
+
+  <header>
+    <h1>Mamas FC</h1>
+    <p>Aplicación oficial del equipo</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Bienvenidos</h2>
+      <p>Esta es la app oficial de Mamas FC.</p>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+  <script>
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("service-worker.js")
+      .then(() => console.log("Service Worker registrado"))
+      .catch(err => console.log("SW error", err));
+  }
+</script>
+
+</body>
+</html>

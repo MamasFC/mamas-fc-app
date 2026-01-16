@@ -1,0 +1,21 @@
+{
+  "name": "Mamas FC",
+  "short_name": "Mamas FC",
+  "description": "Aplicación oficial del equipo Mamas FC",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0f1f1a",
+  "theme_color": "#1f8f4a",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
